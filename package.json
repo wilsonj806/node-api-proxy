@@ -2,11 +2,10 @@
   "name": "api-proxy",
   "version": "1.0.0",
   "description": "A quick proxy in Node for connecting and calling an external API",
-  "main": "index.js",
   "scripts": {
     "test": "echo 'test'",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "starter": "node starter.js",
+    "nodemon:starter": "nodemon starter.js"
   },
   "author": "Wilson",
   "license": "ISC",
